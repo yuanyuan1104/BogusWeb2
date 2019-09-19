@@ -30,3 +30,8 @@
 /Users/zhangyuanyuan/Desktop/Term4/4976ASP.NET /0916/lab/obj/Debug/netcoreapp2.2/lab.csproj.CopyComplete
 /Users/zhangyuanyuan/Desktop/Term4/4976ASP.NET /0916/lab/obj/Debug/netcoreapp2.2/Razor/Views/File/Index.g.cshtml.cs
 /Users/zhangyuanyuan/Desktop/Term4/4976ASP.NET /0916/lab/obj/Debug/netcoreapp2.2/Razor/Views/File/Privacy.g.cshtml.cs
+/Users/zhangyuanyuan/Desktop/Term4/4976ASP.NET /0916/lab/obj/Debug/netcoreapp2.2/Razor/Views/Categories/Create.g.cshtml.cs
+/Users/zhangyuanyuan/Desktop/Term4/4976ASP.NET /0916/lab/obj/Debug/netcoreapp2.2/Razor/Views/Categories/Delete.g.cshtml.cs
+/Users/zhangyuanyuan/Desktop/Term4/4976ASP.NET /0916/lab/obj/Debug/netcoreapp2.2/Razor/Views/Categories/Details.g.cshtml.cs
+/Users/zhangyuanyuan/Desktop/Term4/4976ASP.NET /0916/lab/obj/Debug/netcoreapp2.2/Razor/Views/Categories/Edit.g.cshtml.cs
+/Users/zhangyuanyuan/Desktop/Term4/4976ASP.NET /0916/lab/obj/Debug/netcoreapp2.2/Razor/Views/Categories/Index.g.cshtml.cs
