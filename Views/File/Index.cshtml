@@ -3,12 +3,11 @@
     var files = ViewData ["files"] as string[];
 }
 
-<div class="text-center">
+<div>
     <h1 class="display-4">Index</h1>
     <ul>
         @foreach (var item in files) {
-            
-            <li>@item</li>
+            <a asp-controller="File" asp-action="Content" asp-route-id="@item"><li>@item</li></a>
         }
     </ul>
 </div>

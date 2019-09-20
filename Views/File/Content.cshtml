@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Content page";
+    var filec = ViewData ["filecontents"];
+}
+
+<div>
+    <h1 class="display-4">Content</h1>
+    <p asp-controller="File" asp-action="Content" asp-route-id="@filec">@filec</p>
+       
+</div>
+

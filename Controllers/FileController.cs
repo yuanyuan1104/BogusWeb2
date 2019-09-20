@@ -19,14 +19,28 @@ namespace lab.Controllers
         public IActionResult Index()
         {
             // string webRootPath = _hostingEnvironment.WebRootPath;
-            var path = Path.Combine(_hostingEnvironment.WebRootPath, "./TextFiles");
-            string[] file = Directory.GetFiles(path);
+            var path = Path.Combine(_hostingEnvironment.ContentRootPath, "TextFiles");
+            // Console.WriteLine(path);
+            string[] files = Directory.GetFiles(path);
+            string[] filenames = new string[files.Length];
+            for(int i = 0; i < files.Length; i ++){
+                filenames[i] = Path.GetFileName(files[i]);
+            }
             // string[] filename = Path.GetFileName(file);
-            ViewData["files"] = file;
+            ViewData["files"] = filenames;
             return View();
         }
-        public IActionResult Content()
+        public IActionResult Content(string id)
         {
+             var path = Path.Combine(_hostingEnvironment.ContentRootPath, "TextFiles", id);
+            // Console.WriteLine(path);
+            // string[] files = Directory.GetFiles(path);
+            // string[] filenames = new string[files.Length];
+            // for(int i = 0; i < files.Length; i ++){
+                // filenames[i] = Path.GetFileName(files[i]);
+            // }
+            var filecontent = System.IO.File.ReadAllText(path);
+            ViewData["filecontents"] = filecontent;
             return View();
         }
     }

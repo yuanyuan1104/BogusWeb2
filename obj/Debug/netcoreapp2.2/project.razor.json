@@ -2991,6 +2991,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "Views/File/Content.cshtml",
+      "TargetPath": "Views/File/Content.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views/File/Privacy.cshtml",
       "TargetPath": "Views/File/Privacy.cshtml",
       "FileKind": "mvc"
